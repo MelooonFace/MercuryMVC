@@ -13,11 +13,7 @@
 		{
 					
 			$this->output->append_output(
-				
-				$this->load->view(
-					"welcome.php", array(), true
-				)
-				
+				$this->load->view( "welcome.php", array(), true )
 			);
 			
 		}
