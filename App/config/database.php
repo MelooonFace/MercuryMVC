@@ -5,6 +5,6 @@
 	
 	$Config['database']['host']	= "localhost";
 	$Config['database']['port'] = 3306;
-	$Config['database']['user']	= "root";
+	$Config['database']['user']	= "Mercury";
 	$Config['database']['pass']	= "";
 	$Config['database']['db']	= "Mercury";
