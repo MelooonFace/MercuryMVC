@@ -12,7 +12,13 @@
 		public function index()
 		{
 					
-			var_dump( getInstance() );
+			$this->output->append_output(
+				
+				$this->load->view(
+					"welcome.php", array(), true
+				)
+				
+			);
 			
 		}
 		
