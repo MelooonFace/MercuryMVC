@@ -11,7 +11,9 @@
 			
 			$this->load = new Load();
 			$this->output = new Output();
-			$this->database = new Database( get_config('database') );
+			
+			if(get_config('use_mysql'))
+				$this->database = new Database( get_config('database') );
 		}
 		
 		public static function &getInstance()
