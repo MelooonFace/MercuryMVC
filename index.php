@@ -21,7 +21,7 @@
 	 * 4 - Severe errors get logged
 	 *
 	 */
-	define( 'LOGGER', "3,4" );
+	define( 'LOGGER', "1" );
 
 
 	// Get the ball rolling

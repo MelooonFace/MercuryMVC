@@ -91,14 +91,14 @@
 		if( !in_array( $priority, $continue ) && LOGGER != "ALL" )
 			return false;
 		
-		if( !empty($message) )
-		{			
+		if( !empty($message) && is_writable( $Mercury['logger']['file'] ) )
+		{
 			
 			// Open the file up
 			$open = fopen( $Mercury['logger']['file'], 'a' );
 			
 			// Write the message to the file
-			fwrite( $open, $message ."\n" );
+			fwrite( $open, "[" .date(DATE_RFC822). "][" .$priority. "] " .$message ."\n" );
 			
 			// Close the file
 			fclose($open);
