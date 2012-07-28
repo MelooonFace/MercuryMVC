@@ -1,7 +1,11 @@
-MercuryMVC
+MercuryMVC Framework
 ==========
 
 A very basic MVC framework for PHP, developed by `Jacob Marshall`.
+
+Bare in mind that this is a WIP framework, and I am free to ANY suggestions that you may or may not have. Please feel free to make pull-requests (if you can).
+
+Any glitches or errors that you run into, please tell me, and ill get right on it.
 
 
 ####	Installation
