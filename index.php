@@ -7,7 +7,7 @@
 	define( 'BASE_PATH', dirname(realpath(__FILE__)) . "/" );
 	
 	// Define the application path
-	define( 'APP_PATH', realpath("application") . "/" );
+	define( 'APP_PATH', realpath("App") . "/" );
 	
 	// Define the core business path
 	define( 'SYS_PATH', realpath("Mercury") . "/" );
